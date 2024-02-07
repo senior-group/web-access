@@ -95,9 +95,6 @@ GEM
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
     crass (1.0.6)
-    dartsass-rails (0.5.0)
-      railties (>= 6.0.0)
-      sass-embedded (~> 1.63)
     date (3.3.4)
     debug (1.9.1)
       irb (~> 1.10)
@@ -107,12 +104,6 @@ GEM
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    google-protobuf (3.25.2)
-    google-protobuf (3.25.2-aarch64-linux)
-    google-protobuf (3.25.2-arm64-darwin)
-    google-protobuf (3.25.2-x86-linux)
-    google-protobuf (3.25.2-x86_64-darwin)
-    google-protobuf (3.25.2-x86_64-linux)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
@@ -214,26 +205,6 @@ GEM
     rexml (3.2.6)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
-    sass-embedded (1.70.0-aarch64-linux-gnu)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-aarch64-linux-musl)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-arm-linux-gnueabihf)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-arm-linux-musleabihf)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-arm64-darwin)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-x86-linux-gnu)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-x86-linux-musl)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-x86_64-darwin)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-x86_64-linux-gnu)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-x86_64-linux-musl)
-      google-protobuf (~> 3.25)
     selenium-webdriver (4.17.0)
       base64 (~> 0.2)
       rexml (~> 3.2, >= 3.2.5)
@@ -279,24 +250,15 @@ GEM
 
 PLATFORMS
   aarch64-linux
-  aarch64-linux-gnu
-  aarch64-linux-musl
   arm-linux
-  arm-linux-gnueabihf
-  arm-linux-musleabihf
   arm64-darwin
   x86-linux
-  x86-linux-gnu
-  x86-linux-musl
   x86_64-darwin
   x86_64-linux
-  x86_64-linux-gnu
-  x86_64-linux-musl
 
 DEPENDENCIES
   bootsnap
   capybara
-  dartsass-rails
   debug
   importmap-rails
   jbuilder
