@@ -21,4 +21,9 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* NOTE FROM JUAN:
+    + In order to be able to test and run the site run these commands:
+    1. gem install rails
+    2. bundle install
+    3. yarn install (optional but try it the first time you open codespaces).
+    4. 'rails s' or 'rails s 0.0.0.0'
